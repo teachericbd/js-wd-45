@@ -1,0 +1,18 @@
+{
+    "name": "Rahim",
+    "age": 25,
+    "married": false,
+    "homeTown": "Dhaka",
+    "dob": "1995-02-12",
+    "testNull": null,
+    "testList": [
+        "rakib",
+        "santo",
+        "mims"
+    ],
+    "testObj": {
+        "name": "Child",
+        "age": 25,
+        "gender": "Female"
+    }
+}

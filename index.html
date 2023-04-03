@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem Solving</title>
+</head>
+<body>
+    <!-- Input Value -->
+    <input type="text" name="num" id="num1" onkeydown="callFunction()">
+    <input type="number" name="num" id="num2">
+    <!-- Call Function -->
+    <button type="button" onmouseup="sum()">Click</button>
+    <button onclick="reload()">Reload</button>
+    <!-- <p onselect="testFun()">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita molestias odio earum tenetur quia accusantium? Quas veritatis voluptatum odit, quia rerum cumque nemo tempora sunt velit dolorum distinctio molestias id, similique dolorem repellendus modi fuga excepturi dolores neque minima quidem quis accusamus? Numquam quod est nesciunt eligendi minus ipsa porro animi tenetur, voluptates totam eum id neque. Cupiditate consequatur nihil temporibus pariatur nostrum eos provident voluptas veniam accusantium. Deleniti suscipit, asperiores est, fugit ut aspernatur nam blanditiis optio veniam molestias sequi porro ducimus iste sed. Porro odit officiis nostrum placeat quaerat nulla corporis sed exercitationem autem nisi magni, fugit provident natus laudantium unde in obcaecati vero accusantium a itaque vitae! Quisquam est nulla asperiores, quas, perferendis adipisci vel eaque quod aspernatur nisi, fuga beatae aut sint quis eius sunt eveniet. Excepturi ipsam, necessitatibus illo mollitia perspiciatis beatae iste laborum earum tempore nostrum odio. Laboriosam aut sed, est quidem minus maiores. Porro vel voluptate at molestias hic, ipsa in, minus officia doloribus iure, non accusamus quasi inventore exercitationem vitae quae dolores suscipit maxime! Rerum dolor sit molestias? Maiores numquam mollitia, corporis ex nisi laborum itaque architecto, repellendus sit obcaecati deleniti ad amet voluptatem voluptatum explicabo, ut placeat atque. Quaerat, temporibus similique?
+    </p> -->
+    <!-- Show Result -->
+    <p id="output"></p>
+
+    <!-- <script src="./assets/js/sum.js"></script> -->
+    <!-- <script src="./assets/js/multiply.js"></script> -->
+    <!-- <script src="./assets/js/evenNumber.js"></script> -->
+    <!-- <script src="./assets/js/sumEven.js"></script> -->
+    <script>
+        // 1.Number
+        // 2.boolen
+        // 3.String
+        // 4. Array
+        // 5. Object
+// Others DataType
+        // 1.Null
+        // 2.undefine
+        // 3.Symbl
+        // 4.NaN
+        // 5.Empty
+
+        // a = 1050.25521;
+        //Number Method
+        // console.log(typeof a.toString());
+        // console.log( parseInt(a));
+        // console.log( parseFloat(a));
+        // console.log( a.toPrecision(4));
+
+        //stingDataTypeMethod
+        // a = "Welcome to Dhak";
+        // console.log(a.toUpperCase());
+        // console.log(a.toLowerCase());
+        // console.log(a.trim());
+        // console.log(a.slice(13));
+        // console.log(a.substr(1));
+        // console.log(a.replace('Dhak','Noakhali'));
+        // console.log(a.concat("a Hello"));
+        
+        // Array()
+        // arr = ['Appole','Mango','Banana','Orange'];
+        // arr2 = ['jackput','coconat','stobary'];
+        // a = "Welcome To Dhaka";
+        // console.log(arr);
+        // console.log(arr.length);
+        // arr.unshift('coconat');
+        // arr.push('jackput');
+        // arr.pop();
+        // arr.shift();
+        // console.log(a.split(''));
+        // console.log(arr.toString());
+        // console.log(arr.concat(arr2));
+        // console.log(arr.join('-'));
+        // console.log(arr.sort());
+        // console.log(arr.reverse());
+        // arr.splice(0,0,'jackput')
+        // console.log(arr);
+        // arr.forEach(element => {
+        //         console.log(element);
+        // });
+        // arr.forEach(function(value){
+        //     document.write(`<li>${value}</li>`);
+        // })
+        // arr = ['Appole','Mango','Banana','Orange','jackput'];
+        // for(value in arr){
+        //     document.write(`<li>${arr[value]}</li>`);
+        // }
+        // arr.map(function(a,b,c){
+        //     console.log(a);
+        // })
+        // for(index in arr){
+        //     // console.log(index);
+        //     document.write(`<li><a href="#">${arr[index]}</a></li>`);
+        // }
+
+        // js Object DataType
+        // let name = {
+        //     name : "Ramanda",
+        //     age : 25,
+        //     dob : "16-02-1997",
+        //     isMarrid : false
+        // }
+        // console.log(name)
+        // let a = 100;
+        // let b = "1Welome";
+        // console.log(a*b);
+        // a = ;
+        // if(!name.empty){
+        //     console.log(name);
+        // }
+        // function test(a,b){
+        //     // console.log(a+b);
+        //     return(a+b);
+        // }
+        // function test2(c,d){
+        //     return(c-d);
+        // }
+        // a = test(10,20)
+        // b =  test2(20,10)
+        // console.log(a-b);
+        // function sum(){
+        //     let output = document.getElementById('output');
+        //     let a = document.getElementById('num1').value;
+        //     let b = document.getElementById('num2').value;
+        //     output.innerText = parseFloat(Number(a)+Number(b));
+        // }
+        // function testFunc(){
+        //     document.querySelector('body').style.background = '#ff4f81';
+        // }
+        // function testFun(){
+        //     document.querySelector('body').style.background = '#fff';
+        // }
+        // output = document.getElementById('output');
+        // function callFunction(){
+            
+        //     let a = document.getElementById('num1').value;
+        //     output.innerText = a;
+        // }
+    //    function reload(){
+    //     location.reload();
+    //    }
+    // Event of JavaScript
+    // onclick
+    // onmouseover / onmouseout
+    // onmousedown / onmouseup
+    // onmousemove
+    // onload
+    // onerror
+    // onunload
+    // onblur
+    // onresize
+    // onchange
+    // onfocus
+    // onselect
+    // onsubmit
+    // onreset
+    // onkeydown
+    // onkeyup
+    // onkeypress
+    // onabort
+    // oncancel
+    </script>
+</body>
+</html>
